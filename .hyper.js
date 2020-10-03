@@ -139,7 +139,57 @@ module.exports = {
   localPlugins: [],
 
   keymaps: {
-    // Example
-    // 'window:devtools': 'cmd+alt+o',
+    "window:devtools": "ctrl+shift+i",
+    "window:reload": "ctrl+shift+r",
+    "window:reloadFull": "ctrl+shift+f5",
+    "window:preferences": "ctrl+,",
+    "window:hamburgerMenu": "alt",
+    "zoom:reset": "ctrl+0",
+    "zoom:in": "ctrl+=",
+    "zoom:out": "ctrl+-",
+    "window:new": "ctrl+shift+n",
+    "window:minimize": "ctrl+shift+m",
+    "window:zoom": "ctrl+shift+alt+m",
+    "window:toggleFullScreen": "f11",
+    "window:close": [
+      "ctrl+shift+q",
+      "alt+f4"
+    ],
+    "tab:new": "ctrl+shift+t",
+    "tab:next": [
+      "ctrl+shift+]",
+      "ctrl+shift+right",
+      "ctrl+alt+right",
+      "ctrl+tab"
+    ],
+    "tab:prev": [
+      "ctrl+shift+[",
+      "ctrl+shift+left",
+      "ctrl+alt+left",
+      "ctrl+shift+tab"
+    ],
+    "tab:jump:prefix": "ctrl",
+    "pane:next": "ctrl+pageup",
+    "pane:prev": "ctrl+pagedown",
+    "pane:splitVertical": "ctrl+shift+d",
+    "pane:splitHorizontal": "ctrl+shift+e",
+    "pane:close": "ctrl+shift+w",
+    "editor:undo": "ctrl+z",
+    "editor:redo": "ctrl+y",
+    "editor:cut": "ctrl+x",
+    "editor:copy": "ctrl+c",
+    "editor:paste": "ctrl+v",
+    "editor:selectAll": "ctrl+a",
+    "editor:movePreviousWord": "ctrl+left",
+    "editor:moveNextWord": "ctrl+right",
+    "editor:moveBeginningLine": "Home",
+    "editor:moveEndLine": "End",
+    "editor:deletePreviousWord": "ctrl+backspace",
+    "editor:deleteNextWord": "ctrl+del",
+    "editor:deleteBeginningLine": "ctrl+home",
+    "editor:deleteEndLine": "ctrl+end",
+    "editor:clearBuffer": "ctrl+shift+k",
+    "editor:break": "ctrl+c",
+    "plugins:update": "ctrl+shift+u"
   },
 };
